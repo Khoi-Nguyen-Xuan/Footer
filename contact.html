@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="icon" type="image/x-icon" href="https://previews.123rf.com/images/fokaspokas/fokaspokas1803/fokaspokas180300007/96756525-cup-of-hot-coffee-icon-on-transparent-background-.jpg">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+" />
+   <style>
+
+
+    footer{
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 220px;
+    Width: 100%;
+    font-family: "Open Sans";
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+.footer-content{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin :10px auto;
+    line-height: 28px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  0px;
+
+}
+.socials li{
+    margin:  0 10px;
+
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.socials a i{
+    font-size: 1.5rem;
+    transition: color .3s ease;
+
+}
+
+.socials a:hover 
+{
+    color: aqua;
+    background-color: #333;
+}
+
+.footer-bottom{
+    background: #333;
+    width: 100%;
+    padding : 20px 0; 
+    text-align: center;
+
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 400;
+
+}
+
+     
+      #Sofia {
+          font-family: "Sofia", sans-serif;
+          font-size: 70px;
+         text-shadow: 3px 3px 3px #ababab;
+         }
+
+
+      *{
+
+         margin: 0;
+      }
+
+       body{
+          -webkit-animation:slide-down .6s ease-out;
+          -moz-animation:slide-down .6s ease-out;
+          -webkit-animation:slide-down .6s ease-in;
+          -moz-animation:slide-down .6s ease-in;
+           height: 1000px;
+      }
+
+
+
+
+      @-webkit-keyframes slide-down
+      {
+
+        0% {opacity: 0;}
+        20% { opacity:1; }
+
+      }
+
+
+
+      .wrapper {
+
+
+         background-color: lemonchiffon;
+         width: 100%;
+         height: 1000px;
+      }
+
+
+      ul {
+         list-style-type: none;
+          margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+             position: sticky;
+
+             
+         }
+
+      li {
+        float: left;
+        width:25%;
+      }
+   
+      li a, .dropbtn {
+         display: inline-block;
+         color: white;
+         text-align: center;
+          padding: 25px 50%;
+          text-decoration: none;
+          font-size: 20px;
+
+         }
+
+
+      li a:hover, .dropdown:hover .dropbtn {
+      background-color: #111;
+         }  
+
+      
+
+      li.dropdown {
+           display: inline-block;
+         }
+
+         .dropdowncontentHome {
+             display: none;
+             position: fixed;
+             background-color: white;
+             min-width: 25%;
+             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          
+            }
+
+
+          .dropdowncontentHome a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+             z-index: 1;
+            text-align: center ;
+            }
+
+            .dropdowncontentNews {
+             display: none;
+             position: fixed;
+             background-color: white;
+             min-width: 25%;
+             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          
+            }
+
+
+          .dropdowncontentNews a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+             z-index: 1;
+            text-align: center ;
+            }
+
+             .dropdowncontentContact {
+             display: none;
+             position: fixed;
+             background-color: white;
+             min-width: 25%;
+             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          
+            }
+
+
+          .dropdowncontentContact a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+             z-index: 1;
+            text-align: center ;
+            }
+
+            .dropdowncontentFeedback {
+             display: none;
+             position: fixed;
+             background-color: white;
+             min-width: 25%;
+             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          
+            }
+
+
+          .dropdowncontentFeedback a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+             z-index: 1;
+            text-align: center ;
+            }
+
+         .dropdowncontentHome a:hover {background-color: lightgray;}
+         .dropdowncontentFeedback a:hover {background-color: lightgray;}
+         .dropdowncontentNews a:hover {background-color: lightgray;}
+         .dropdowncontentContact a:hover {background-color: lightgray;}
+
+
+         .dropdown:hover .dropdowncontentHome {
+          display: block;
+            }
+         .dropdown:hover .dropdowncontentFeedback {
+          display: block;
+            }
+
+         .dropdown:hover .dropdowncontentNews {
+          display: block;
+            }
+
+         .dropdown:hover .dropdowncontentContact {
+          display: block;
+            }
+
+
+
+   </style>
+</head>
+
+
+
+<body>
+
+
+   <ul>
+
+         <li class ="dropdown">
+            <a class="dropbtn"  style ="background-color: #333;"  href="home.html">Home</a>
+
+            <div class="dropdowncontentHome">
+                 <a href="#">About us</a>
+                 <a href="#">Our services</a>
+                 <a href="#">Our customers</a>
+                 <a href="#">Location</a>
+         
+          </div>
+          </li>
+
+         <li class ="dropdown">
+            <a class="dropbtn"  style ="background-color: #333;"  href="menu.html">Menu</a>
+
+            <div class="dropdowncontentNews">
+                 <a href="drinks.html">Drinks</a>
+                 <a href="food.html">Food</a> 
+                
+
+         
+          </div>
+          </li>
+
+         <li class ="dropdown">
+            <a class="dropbtn"  style ="background-color: #333;"  href="contact.html">News</a>
+
+            <div class="dropdowncontentContact">
+                 <a href="#">Sale off</a>
+                 <a href="#">News</a>
+                 
+         
+          </div>
+          </li>
+
+
+         <li class ="dropdown">
+            <a class="dropbtn"  style ="background-color: #333;"  href="feedback.html">Feedback</a>
+
+          
+          </li>
+
+
+
+   <div id ="#menu" class ="wrapper">
+<Br> 
+<br> <Br> 
+<br> 
+
+      <h1 id ="Sofia" style ="text-align: center;"> News </h1>
+     
+      <br>
+      <br>
+
+    
+<footer> 
+    <div class ="footer-content">
+        <h3> Luchiava Devas </h3>
+        <p> Luchiava Devas ,the best local càfe, serves best food and drinks </p>
+        <ul class = "socials"> 
+            <li> <a href = "https://www.facebook.com/buu.quy.374" target =blank> <i class = " fa fa-facebook"></i></a></li>
+            <li> <a href = "https://twitter.com/Xuankhoi2003" target =blank> <i class = " fa fa-twitter"></i></a></li>
+            <li> <a href = "https://www.instagram.com/kestrel.nguyen/" target ="blank"> <i class = "fa fa-instagram"></i></a></li>
+            <li> <a href = "https://www.youtube.com/channel/UCTbbbAByJp5-YL-p9y-KMVg" target =blank> <i class = " fa fa-youtube"></i></a></li>
+            <li> <a href = "https://github.com/Khoi-Nguyen-Xuan" target=blank> <i class = " fa fa-github"></i></a></li>
+    </div>
+
+
+    <div class ="footer-bottom">
+        <p> copyright &copy;2022 luchiavaDevas.designed by <span> Xuankhoi </span></p>
+    </div>
+</footer>
+
+ 
+
+    
+
+</body>
+
+
+
+</html>
